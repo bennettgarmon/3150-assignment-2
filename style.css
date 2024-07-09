@@ -60,7 +60,7 @@ em {
 @media screen
   and (min-width: 641px)
   and (max-width: 900px)  {
-.container {
+.wrapper {
 grid-template-columns:
    1fr 1fr;
 }
@@ -68,7 +68,7 @@ grid-template-columns:
 
 @media screen
   and (max-width: 640px)  {
-.container {
+.wrapper {
 grid-template-columns:
    1fr;
 
