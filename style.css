@@ -24,4 +24,27 @@ h1, strong {
 em {
   color: gray;
 }
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.one{
+  border: 1px solid black;
+  padding: 2px;
+}
+.two{
+  padding: 2px;
+  border: 1px solid black;
+}
+.three{
+  padding: 2px;
+  border: 1px solid black;
+  
+}
+
     
